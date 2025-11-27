@@ -147,7 +147,7 @@ class HomeServicesHomepage extends Component {
       this.props.navigate("/userhome");
     }
   } else {
-    responseDiv.innerHTML = <label style="color:red">${msg}</label>;
+    responseDiv.innerHTML = `<label style="color:red">${msg}</label>`;
   }
 };
 
